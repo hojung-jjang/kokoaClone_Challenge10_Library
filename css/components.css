@@ -1,8 +1,7 @@
 .main_img {
-    width: 180px;
-    height: 220px;
-    border-radius: 10px;
-    
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;   
 }
 
 .main-contents {
@@ -19,25 +18,28 @@
 .main-contents_title {
     margin-bottom: 20px;
 }
+    
 
 .main-content:first-child {
     display: flex;
     flex-direction: column;
 }
 
-.main-stars{
+.main-content {
+    margin: 0px 30px;
+    margin-bottom: 18px;
     display: flex;
 }
 
-.main-content {
-    margin: 0px 20px;
-    margin-bottom: 10px;
-    display: flex;
+.main-stars {
+  font-size: 20px;
+  display: flex;
 }
 
 button {
+    font-size: 23px;
     border-radius: 5px;
-    padding: 7px 13px;
+    padding: 10px 20px;
     border: none;
     margin-right: 15px;
 }
@@ -48,22 +50,21 @@ button.booknow {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 600;
 }
 
 .book_title {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 27px;
+    font-weight: 600;
     margin-bottom: 10px;    
 }
 
 .book_author {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
     opacity: 0.6;
 }
-
 
 .fa-star:not(last-child) {
     color: var(--main-color);
@@ -82,7 +83,7 @@ h2 {
     font-size: 17px;
     background-color: var(--main-color);
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 35px;
 }
 
 .main-stars i {
@@ -107,10 +108,19 @@ h2 {
 }
 
 .popular_author-text {
-    font-size: 18px; 
-    line-height: 20px;  
+    font-size: 20px; 
+    line-height: 25px;  
+}
+
+.main-content_booknow {
+    margin-top: 30px;
+    align-items : center;
+}
+
+.main-contents_content-overflow {
+    overflow-x: scroll;
 }
 
 .main-content:last-child {
-    margin-top: 20px;
+    margin-bottom: 0px;
 }

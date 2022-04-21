@@ -27,7 +27,7 @@ body {
 
 header {
     height: 130px;
-    background-color: rgb(238, 199, 90);
+    background-color: var(--main-color);
     font-size: 25px;
     font-weight: 600;
     display: flex;

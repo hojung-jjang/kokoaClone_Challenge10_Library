@@ -1,0 +1,116 @@
+.main_img {
+    width: 180px;
+    height: 220px;
+    border-radius: 10px;
+    
+}
+
+.main-contents {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.main-contents_content {
+    display: flex;
+    align-items: center;
+}
+
+.main-contents_title {
+    margin-bottom: 20px;
+}
+
+.main-content:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-stars{
+    display: flex;
+}
+
+.main-content {
+    margin: 0px 20px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+button {
+    border-radius: 5px;
+    padding: 7px 13px;
+    border: none;
+    margin-right: 15px;
+}
+
+button.booknow {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.book_title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;    
+}
+
+.book_author {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+
+.fa-star:not(last-child) {
+    color: rgb(238, 199, 90);
+}
+
+.fa-star:last-child {
+    color: rgb(231, 229, 229);
+}
+
+.bookmark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+    background-color: rgb(238, 199, 90);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.main-stars i {
+    margin: 0px 1px;
+}
+
+.main_img_sm {
+    width: 150px;
+    height: 180px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.main-stars_sm {
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.main-contents_column-books {
+    margin-right: 40px;
+}
+
+.popular_author-text {
+    font-size: 18px; 
+    line-height: 20px;  
+}
+
+.main-content:last-child {
+    margin-top: 20px;
+}

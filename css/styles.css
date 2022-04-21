@@ -1,0 +1,59 @@
+@import "variables.css";
+@import "reset.css";
+@import "components.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-screen{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 2.5%;
+}
+
+.main-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 25px;
+}
+
+header {
+    height: 130px;
+    background-color: rgb(238, 199, 90);
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10px;
+}
+
+.searchbar {
+    font-size: 15px;
+    border: none;
+    color: rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 35px;
+    width: 95%;
+    box-shadow: 5px 5px 2px rgb(211, 210, 210);
+}
+
+.searchbar:focus {
+    border: none;
+}
+
+
+.main-search_icon {
+    position: absolute;
+    right: 5%;
+    opacity: 0.3;
+}
